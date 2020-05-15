@@ -1,0 +1,21 @@
+.catalog__list {
+  @include reset-list;
+
+  @media (width: $mobile-width-only) {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  @media (min-width: $tablet-width) {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 26px;
+  }
+
+  @media (min-width: $desktop-width) {
+    justify-content: space-between;
+    padding-bottom: 32px;
+
+    @include container;
+  }
+}

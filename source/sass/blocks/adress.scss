@@ -1,0 +1,73 @@
+
+.adress {
+  background-color: #f2f2f2;
+  margin-bottom: -39px;
+  padding-top: 12px;
+  padding-bottom: 9px;
+  display: flex;
+  padding-left: 38px;
+  padding-right: 27px;
+
+  @media (min-width: $tablet-width) {
+    margin-bottom: auto;
+    padding-top: 49px;
+    padding-bottom: 40px;
+    justify-content: space-between;
+    padding-left: 71px;
+    padding-right: 75px;
+  }
+
+  @media (min-width: $desktop-width) {
+    position: absolute;
+    margin-top: 96px;
+    padding-left: 75px;
+    padding-right: 77px;
+    padding-top: 44px;
+    padding-bottom: 44px;
+    width: 570px;
+    background-color: #ffffff;
+  }
+}
+
+.adress--index {
+  background-color: #ffffff;
+}
+
+.adress__title {
+  @include middle-text;
+  font-family: $font-primary;
+  text-align: left;
+  margin-right: 8px;
+  font-weight: 400;
+
+  @media (min-width: $tablet-width) {
+    font-size: 20px;
+    line-height: 25px;
+    width: 30%;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 40%;
+  }
+}
+
+.adress__street {
+  font-family: $font-secondary;
+  font-size: 14px;
+  line-height: 20px;
+  color: $text-color;
+  margin-left: 11px;
+
+  @media (min-width: $tablet-width) {
+    font-size: 16px;
+    line-height: 20px;
+    text-align: right;
+    width: 30%;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 40%;
+    text-align: left;
+    padding-top: 3px;
+  }
+}

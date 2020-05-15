@@ -1,0 +1,48 @@
+.page-header {
+  padding-top: 14px;
+  position: relative;
+  width: 100%;
+
+  @media (min-width: $tablet-width) {
+    display: flex;
+    padding-top: 24px;
+    align-items: center;
+    justify-content: space-between;
+
+    @include container;
+    z-index: 1;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding-top: 54px;
+  }
+}
+
+.page-header__logo {
+  @include container;
+  padding-left: 40px;
+  padding-bottom: 10px;
+
+  @media (min-width: $tablet-width) {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    width: 174px;
+    height: 59px;
+    margin-right: 0;
+    margin-left: -1px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 205px;
+    height: 60px;
+  }
+}
+
+.page-header__logo:hover {
+  opacity: 80%;
+}
+
+.page-header__logo:active {
+  opacity: 60%;
+}

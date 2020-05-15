@@ -1,0 +1,46 @@
+.social-link {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.social-link__svg {
+  fill: #666666;
+}
+
+.social-link__svg:hover {
+  fill: #68b738;
+}
+
+.social-link:active {
+  opacity: 30%;
+}
+
+.social-link__svg--insta {
+  height: 17px;
+  width: 17px;
+
+  @media (min-width: $tablet-width) {
+    height: 23px;
+    width: 23px;
+  }
+}
+
+.social-link__svg--fb {
+  height: 19px;
+  width: 10px;
+
+  @media (min-width: $tablet-width) {
+    height: 28px;
+    width: 14px;
+  }
+}
+
+.social-link__svg--vk {
+  height: 12px;
+  width: 22px;
+
+  @media (min-width: $tablet-width) {
+    height: 16px;
+    width: 30px;
+  }
+}

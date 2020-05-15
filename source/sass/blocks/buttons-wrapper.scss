@@ -1,0 +1,22 @@
+.buttons-wrapper {
+  display: flex;
+  align-items: baseline;
+  padding-left: 44px;
+  padding-bottom: 36px;
+
+  @media (min-width: $tablet-width) {
+    padding-left: 68px;
+    padding-right: 25px;
+    align-items: center;
+    padding-bottom: 65px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-left: 49%;
+    margin-top: -65px;
+    padding-bottom: 66px;
+    padding-top: 2px;
+    padding-left: 53px;
+    padding-right: 0;
+  }
+}

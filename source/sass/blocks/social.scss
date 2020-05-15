@@ -1,0 +1,12 @@
+.social {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 13px;
+  padding-right: auto;
+  align-items: center;
+
+  @media (min-width: $tablet-width) {
+    border-bottom: none;
+    padding: 0;
+  }
+}

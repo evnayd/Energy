@@ -1,0 +1,21 @@
+.add-wrapper {
+  display: flex;
+  justify-content: space-between;
+
+  @media (min-width: $tablet-width) {
+    margin-right: 0;
+    margin-left: 50%;
+    margin-top: -33px;
+    justify-content: flex-end;
+  }
+
+  @media (min-width: $desktop-width) {
+    flex-direction: row;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: 0;
+    margin-right: 39px;
+    width: 32%;
+    justify-content: space-between;
+  }
+}

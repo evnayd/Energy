@@ -1,0 +1,9 @@
+.example-cost__value {
+  @media (min-width: $tablet-width) {
+    margin-right: 3px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-left: 60px;
+  }
+}

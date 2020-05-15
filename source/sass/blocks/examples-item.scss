@@ -1,0 +1,58 @@
+.examples-item {
+  border: 1px solid #cdcdcd;
+  padding-top: 13px;
+  padding-left: 5px;
+  padding-right: 5px;
+  width: 124px;
+  text-align: center;
+  margin-bottom: 15px;
+
+  @media (min-width: $tablet-width) {
+    width: 162px;
+  }
+}
+
+.examples-item__caption {
+  text-transform: uppercase;
+  font-size: 24px;
+  line-height: 24px;
+  font-family: $font-primary;
+  margin: 0;
+  margin-bottom: 8px;
+  font-weight: 400;
+
+  @media (min-width: $tablet-width) {
+    font-size: 30px;
+    line-height: 37px;
+    margin-bottom: 11px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-bottom: 12px;
+  }
+}
+
+.examples-item__info {
+  font-size: 12px;
+  line-height: 12px;
+  font-family: $font-secondary;
+  color: $text-color;
+  padding-left: 17px;
+  padding-right: 16px;
+  text-align: center;
+  background-color: $grey-background;
+  margin-bottom: -15px;
+  margin-top: 0;
+
+  @media (min-width: $tablet-width) {
+    font-size: 14px;
+    line-height: 14px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: -5px;
+  }
+
+  @media (min-width: $desktop-width) {
+    background-color: $grey-background;
+  }
+}

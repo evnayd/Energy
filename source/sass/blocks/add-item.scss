@@ -1,0 +1,98 @@
+
+.add-item {
+  border-bottom: $primary-border;
+  padding-top: 12px;
+
+  @media (min-width: $tablet-width) {
+    border: $primary-border;
+    padding-left: 38px;
+    padding-right: 36px;
+    padding-top: 26px;
+    padding-bottom: 24px;
+  }
+
+  @media (min-width: $desktop-width) {
+    display: flex;
+    flex-direction: row;
+    width: 92%;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 25px;
+    padding-bottom: 5px;
+    border-left: none;
+    border-right: none;
+  }
+}
+
+.add-item__title {
+  font-size: 16px;
+  line-height: 16px;
+  color: #222222;
+  text-transform: uppercase;
+  font-family: $font-primary;
+  margin-top: 0;
+  margin-bottom: auto;
+  font-weight: 400;
+
+  @media (min-width: $tablet-width) {
+    font-size: 20px;
+    line-height: 20px;
+    margin-top: 0;
+  }
+}
+
+.add-item__button {
+  @include middle-text;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 280px;
+  margin-bottom: 18px;
+
+  @media (min-width: $tablet-width) {
+    width: 100%;
+    margin-top: 8px;
+    margin-bottom: 0;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 245px;
+    margin-top: -11px;
+    margin-bottom: auto;
+    font-size: 16px;
+    line-height: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+
+.add-item__text {
+  @include little-text;
+  font-size: 14px;
+  line-height: 14px;
+
+  @media (min-width: $tablet-width) {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-top: 4px;
+  }
+}
+
+.add-item__cost {
+  @include little-text;
+  font-size: 14px;
+  line-height: 14px;
+
+  @media (min-width: $tablet-width) {
+    font-size: 16px;
+    line-height: 20px;
+    margin-left: 50px;
+  }
+
+  @media (min-width: $desktop-width) {
+    line-height: 15px;
+    margin-top: 4px;
+  }
+}

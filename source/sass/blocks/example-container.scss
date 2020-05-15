@@ -1,0 +1,14 @@
+.example-container {
+  @media (min-width: $tablet-width) {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+    margin-bottom: 5px;
+  }
+
+  @media (min-width: $desktop-width) {
+    flex-direction: column;
+    width: auto;
+  }
+}

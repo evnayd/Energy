@@ -1,0 +1,16 @@
+.fieldsets-wrapper {
+  margin-bottom: 43px;
+
+  @media (min-width: $tablet-width) {
+    @include form-container;
+    margin-bottom: 97px;
+  }
+
+  @media (min-width: $desktop-width) {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding-top: 7px;
+    padding-bottom: 45px;
+  }
+}

@@ -1,0 +1,10 @@
+.example-wrapper {
+  @include container;
+  padding-top: 17px;
+  padding-bottom: 15px;
+
+  @media (min-width: $tablet-width) {
+    padding-top: 41px;
+    padding-bottom: 25px;
+  }
+}

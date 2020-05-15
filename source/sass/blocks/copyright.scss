@@ -1,0 +1,50 @@
+.copyright {
+  @include container;
+  display: flex;
+  padding-top: 17px;
+  padding-bottom: 22px;
+  align-items: center;
+
+  @media (min-width: $tablet-width) {
+    width: 157px;
+    margin: 0;
+    padding: 0;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding: 0;
+    width: auto;
+  }
+}
+
+.copyright__svg {
+  fill: #666666;
+  width: 40px;
+  height: 44px;
+  margin-right: -6px;
+  margin-top: 1px;
+}
+
+.copyright__svg:hover {
+  fill: $primary-color;
+}
+
+.copyright__svg:active {
+  fill: $primary-color;
+  opacity: 30%;
+}
+
+.copyright__name {
+  font-family: $font-secondary;
+  font-size: 16px;
+  line-height: 16px;
+  color: $text-color;
+
+  @media (min-width: $desktop-width) {
+    margin-right: 17px;
+  }
+}
+
+.copyright__name:active {
+  opacity: 30%;
+}

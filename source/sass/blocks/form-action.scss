@@ -1,0 +1,71 @@
+
+.form-action {
+  @include form-container;
+  padding-bottom: 8px;
+  margin-top: 4px;
+  margin-bottom: 10px;
+  font-weight: 400;
+
+  @media (min-width: $tablet-width) {
+    display: flex;
+    align-items: center;
+    padding-bottom: 50px;
+    margin-top: -2px;
+  }
+
+  @media (min-width: $desktop-width) {
+    display: flex;
+    align-items: center;
+    padding-bottom: 50px;
+    margin-top: -2px;
+  }
+}
+
+.form-action__button {
+  width: 100%;
+  padding-top: 11px;
+  padding-bottom: 9px;
+  outline: none;
+  box-shadow: none;
+  border: none;
+
+  @include middle-text;
+  margin-bottom: 7px;
+
+  @media (min-width: $tablet-width) {
+    width: 283px;
+    padding-top: 17px;
+    padding-bottom: 16px;
+    font-size: 20px;
+    line-height: 20px;
+    margin-right: 63px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 568px;
+    margin-right: 82px;
+    padding-bottom: 17px;
+    margin-bottom: 23px;
+  }
+}
+
+.form-action__button:hover {
+  background-color: #5eaa2f;
+}
+
+.form-action__attention {
+  @include little-text;
+  font-family: $font-secondary;
+  text-transform: none;
+  text-align: center;
+
+  @media (min-width: $tablet-width) {
+    font-size: 16px;
+    line-height: 16px;
+    margin-top: 5px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-top: -8px;
+  }
+}
